@@ -3,17 +3,16 @@
         body, html {
             background-image: url(../img/fondo.jpg);
             height: 100%;
-            background-attachment:fixed;
-            background-repeat: no-repeat;/*
+            background-attachment: fixed;
             background-position: center;
-            background-size: cover;*/
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         .content {
             height: 100%;
             padding: 20px;
             background: rgba(0, 0, 0, 0.5);
         }        
-        table tr th td {
-            background-color:none;
+        table th {
             border: 1px;
         }
