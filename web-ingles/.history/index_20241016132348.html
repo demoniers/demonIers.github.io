@@ -2,7 +2,6 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" type="image/x-icon" href="/img/icon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Organigrama</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -14,18 +13,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horario Semanal</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .table th, .table td {
+        text-align: center;
+        vertical-align: middle;
+      }
+    </style>
   </head>
   <body>
-    <div class="paralax">
-      <br><br><br><br>
-    </div>
+    <div class="paralax"></div>
       <div class="content">
-        <header class="text-white text-center py-4">
+        <header class="bg-primary text-white text-center py-4">
           <h1>Horario Semanal</h1>
         </header>
         <main class="container my-5">
           <table class="table table-sm">
-            <thead class="thead-dark">
+            <thead class="thead-light">
                 <tr>
                   <th rowspan="2">Actividad</th>
                   <th colspan="2">Lunes</th>
@@ -97,12 +100,12 @@
           </table>
         </main>
         <br><br><br>
-        <header class="text-white text-center py-4">
+        <header class="bg-primary text-white text-center py-4">
           <h1>Eventos</h1>
         </header>
         <main class="container my-5">
           <table class="table table-sm">
-            <thead class="">
+            <thead class="thead-light">
                 <tr>
                   <td class="cuerpo">Titulo</td>
                   <td class="cuerpo">Descripcion</td>
@@ -115,32 +118,13 @@
                 <td class="cuerpo"></td>
                 <td class="cuerpo"></td>
               </tr>
-              <tr>
-                <td>Clase</td>
-                <td class="cuerpo"></td>
-                <td class="cuerpo"></td>
-              </tr>
-              <tr>
-                <td>Clase</td>
-                <td class="cuerpo"></td>
-                <td class="cuerpo"></td>
-              </tr>
-              <tr>
-                <td>Clase</td>
-                <td class="cuerpo"></td>
-                <td class="cuerpo"></td>
-              </tr>
-              <tr>
-                <td>Clase</td>
-                <td class="cuerpo"></td>
-                <td class="cuerpo"></td>
-              </tr>
             </tbody>
           </table>
         </main>
-        <footer class="text-center py-4">
+        <footer class="bg-light text-center py-4">
           <p>&copy; 2024 Horario Semanal. Todos los derechos reservados.</p>
         </footer>
+        <br><br><br><br><br><br><br><br><br><br><p>hola</p>
       </div>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

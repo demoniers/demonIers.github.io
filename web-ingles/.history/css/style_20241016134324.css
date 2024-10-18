@@ -1,18 +1,23 @@
         /* Estilo que aplica al cuerpo de la página */
        
-        body, html {
-            background-image: url(../img/fondo.jpg);
-            height: 100%;
-            background-attachment:fixed;
-            background-repeat: no-repeat;/*
+        body, html {/*
             background-position: center;
             background-size: cover;*/
         }
-        .paralax
+        .paralax {
+            padding-top: 5%;
+            padding-left: 50%;
+            background-image: url(../img/fondo.jpg);
+            height: 100%;
+            background-attachment:fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
         .content {
             height: 100%;
             padding: 20px;
-            background: rgba(0, 0, 0, 0.3);
+            background: rgba(0, 0, 0, 0.0);
         }        
         table tr th td {
             background-color:none;

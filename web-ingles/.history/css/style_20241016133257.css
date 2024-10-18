@@ -8,11 +8,10 @@
             background-position: center;
             background-size: cover;*/
         }
-        .paralax
         .content {
             height: 100%;
             padding: 20px;
-            background: rgba(0, 0, 0, 0.3);
+            background: rgba(0, 0, 0, 0.5);
         }        
         table tr th td {
             background-color:none;
