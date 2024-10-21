@@ -97,6 +97,7 @@
 
 body {
   background-color: black;
+  color: gray;
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
