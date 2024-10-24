@@ -97,6 +97,7 @@
 
 body {
   background-color: black;
+  color: gray;
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -11201,6 +11202,9 @@ body {
 .footer {
   padding: 5rem 0;
 }
+<<<<<<< HEAD
 li {
   color: whitesmoke;
 }
+=======
+>>>>>>> 9dbbf709f5941b51828809c84c01b9707a08842b
