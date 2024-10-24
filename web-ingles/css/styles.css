@@ -11203,4 +11203,8 @@ body {
 }
 li {
   color: whitesmoke;
+  list-style: none;
+}
+table {
+  color: whitesmoke;
 }
