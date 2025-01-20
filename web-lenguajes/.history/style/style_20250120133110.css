@@ -63,14 +63,8 @@ nav ul li:hover ul {
     flex-grow: 1;
     padding: 20px;
     background-image:url("../img/fondo.png");
-    background-size: cover;
-    background-repeat:no-repeat;
+    background-repeat:space;
     height: 1000px;
-    display: flex;
-}
-.bienvenida {
-    display: flex;
-    align-items: center;
 }
 
 .sidebar {

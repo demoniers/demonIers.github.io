@@ -69,7 +69,7 @@ nav ul li:hover ul {
     display: flex;
 }
 .bienvenida {
-    display: flex;
+    display: grid;
     align-items: center;
 }
 
