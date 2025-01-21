@@ -68,7 +68,6 @@ nav ul li:hover ul {
     height: 894px;
     display: flex;
 }
-/* caja central y animacion */
 .bienvenida {
     display: flex;
     align-items: center;
@@ -90,7 +89,6 @@ nav ul li:hover ul {
         color: #d39f64;
     }
 }
-/* #################################################### */
 .bienvenida button {
     background-color: #000000;
     color: #d39f64;
@@ -101,21 +99,11 @@ nav ul li:hover ul {
 .bienvenida a {
     text-decoration: none;
 }
-/* Barras laterales*/
+
 .sidebar {
     width: 10%;
     padding: 2%;
     background-color: #815017;
-}
-.caja-publi {
-    border: #d39f6486 double 3px;
-    margin-top: 35%;
-    width: fit-content;
-}
-.caja-publi img {
-    margin-top: 5%;
-    width: 95%;
-    height: 300px;
 }
 
 .footer {
