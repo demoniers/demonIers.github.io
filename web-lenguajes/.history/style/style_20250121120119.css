@@ -65,7 +65,7 @@ nav ul li:hover ul {
     background-image:url("../img/fondo.png");
     background-size: cover;
     background-repeat:no-repeat;
-    height: 894px;
+    height: 800px;
     display: flex;
 }
 .bienvenida {
@@ -77,7 +77,6 @@ nav ul li:hover ul {
     text-align: center;
     animation-name: agrandar-texto;
     animation-duration: 3s;
-    animation-fill-mode: forwards;
 }
 @keyframes agrandar-texto {
     0% {

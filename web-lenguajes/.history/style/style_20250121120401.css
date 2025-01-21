@@ -65,7 +65,7 @@ nav ul li:hover ul {
     background-image:url("../img/fondo.png");
     background-size: cover;
     background-repeat:no-repeat;
-    height: 894px;
+    height: 890px;
     display: flex;
 }
 .bienvenida {

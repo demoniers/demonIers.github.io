@@ -65,7 +65,7 @@ nav ul li:hover ul {
     background-image:url("../img/fondo.png");
     background-size: cover;
     background-repeat:no-repeat;
-    height: 894px;
+    height: 800px;
     display: flex;
 }
 .bienvenida {
@@ -76,18 +76,13 @@ nav ul li:hover ul {
     margin: 0;
     text-align: center;
     animation-name: agrandar-texto;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+    animation-duration: 5s;
 }
 @keyframes agrandar-texto {
-    0% {
-        background-color: #00000000;
-        color: #d39f6400;
-    }
-    100% {
-        background-color: rgba(0, 0, 0, 0.400);
-        color: #d39f64;
-    }
+    0% = (width: 0%;);
+    100% = (
+        background-color: rgba(0, 0, 0, 0.329);
+        )
 }
 .bienvenida button {
     background-color: #000000;
