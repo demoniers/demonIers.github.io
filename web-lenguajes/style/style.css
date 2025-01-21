@@ -116,6 +116,10 @@ nav ul li:hover ul {
     height: 1000px;
 }
 
+.cuerpo {
+    color: #d39f64;
+}
+
 .caja-publi {
     border: #d39f6486 double 3px;
     margin-top: 35%;
@@ -185,8 +189,18 @@ th {
 }
 
 .table-header {
-    background-color: #a06624;
-    color: white;
     text-align: center;
     font-size: 24px;
+    animation: colorhead forwards 5s;
+}
+@keyframes colorhead {
+    0% {
+        background-color: #a0662400;
+        color: black
+    ;}
+    100% {
+        background-color: #a06624;
+        color: white;
+    }
+    
 }
