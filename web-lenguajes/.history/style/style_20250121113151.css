@@ -61,7 +61,7 @@ nav ul li:hover ul {
 /* ### CENTRO PAGINA PRINCIPAL ###*/
 .content {
     flex-grow: 1;
-    padding: 0;
+    padding: 20px;
     background-image:url("../img/fondo.png");
     background-size: cover;
     background-repeat:no-repeat;
@@ -75,16 +75,6 @@ nav ul li:hover ul {
     width: 100%;
     padding: 25%;
     margin: 0;
-    text-align: center;
-}
-.bienvenida button {
-    background-color: #000000;
-    width: 25%;
-    padding: 2%;
-    text-align: center;
-}
-.bienvenida a {
-    text-decoration: none;
 }
 
 .sidebar {
