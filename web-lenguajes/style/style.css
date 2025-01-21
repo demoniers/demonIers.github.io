@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #815017;
 }
 
 /* menu superior */
@@ -51,21 +52,20 @@ nav ul li:hover ul {
 }
 
 /*###############################################################################*/
-.container {
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
 
+.container {
+    display: grid;
+    justify-content: space-between;
+    width: 72%;
+    margin-bottom: 70px;
+}
 /* ### CENTRO PAGINA PRINCIPAL ###*/
 .content {
-    flex-grow: 1;
-    padding: 0;
     background-image:url("../img/fondo.png");
     background-size: cover;
     background-repeat:no-repeat;
-    height: 894px;
+    flex-grow: 1;
+    padding: 0;
     display: flex;
 }
 /* caja central y animacion */
@@ -106,6 +106,7 @@ nav ul li:hover ul {
     width: 10%;
     padding: 2%;
     background-color: #815017;
+    height: 1000px;
 }
 .caja-publi {
     border: #d39f6486 double 3px;
@@ -117,11 +118,20 @@ nav ul li:hover ul {
     width: 95%;
     height: 300px;
 }
+.derecha {
+    position: fixed;
+    right: 0%;
+}
+.izquierda {
+    position: fixed;
+    left: 0%;
+}
 
 .footer {
     background-color: #815017;
     color: #d39f64;
     text-align: center;
+    height: 50px;
     padding: 10px;
     position: fixed;
     bottom: 0;
