@@ -109,21 +109,21 @@ nav ul li:hover ul {
 .noticia1 {
     width: 85%;
     grid-column: 1;
-    height: 400px;
+    height: 500px;
     border: solid white 1px;
     margin-top: 1%;
 }
 .noticia2 {
     width: 85%;
     grid-column: 2;
-    height: 400px;
+    height: 500px;
     border: solid white 1px;
     margin-top: 1%;
 }
 .noticia3 {
     width: 85%;
     grid-column: 3;
-    height: 400px;
+    height: 500px;
     border: solid white 1px;
     margin-top: 1%;
 }
@@ -142,9 +142,9 @@ nav ul li:hover ul {
 .titulo-articulo {
     font-family: "Overcooked";
     text-align: center;
-    word-spacing: 2px;
-    letter-spacing: 3px;
-    font-size: 30pt;
+    word-spacing: 4px;
+    letter-spacing: 8px;
+    font-size: 25pt;
 }
 .text-articulo {
     margin-left: 3%;

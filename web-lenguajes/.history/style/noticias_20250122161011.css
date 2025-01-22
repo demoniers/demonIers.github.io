@@ -109,14 +109,14 @@ nav ul li:hover ul {
 .noticia1 {
     width: 85%;
     grid-column: 1;
-    height: 400px;
+    height: 500px;
     border: solid white 1px;
     margin-top: 1%;
 }
 .noticia2 {
     width: 85%;
     grid-column: 2;
-    height: 400px;
+    height: 500px;
     border: solid white 1px;
     margin-top: 1%;
 }
