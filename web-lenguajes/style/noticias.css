@@ -87,7 +87,6 @@ nav ul li:hover ul {
 .container {
     margin: 5%;
     padding: 2%;
-    border: solid white 1px;
     width: 90%;
     height: 1000px;
 }
@@ -98,4 +97,44 @@ nav ul li:hover ul {
 .subtitulo {
     margin: auto;
     padding-top: 2%;
+}
+.cont-noticias {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    width: 90%;
+    padding-left: 5%;
+    margin-top: 3%;
+    padding-bottom: 5%;
+}
+.noticia1 {
+    width: 85%;
+    grid-column: 1;
+    height: 500px;
+    border: solid white 1px;
+    margin-top: 1%;
+}
+.noticia2 {
+    width: 85%;
+    grid-column: 2;
+    height: 500px;
+    border: solid white 1px;
+    margin-top: 1%;
+}
+.noticia3 {
+    width: 85%;
+    grid-column: 3;
+    height: 500px;
+    border: solid white 1px;
+    margin-top: 1%;
+}
+
+.footer {
+    background-color: #815017;
+    color: #d39f64;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
