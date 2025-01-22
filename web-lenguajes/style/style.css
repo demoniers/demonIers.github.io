@@ -42,12 +42,19 @@ nav ul li ul {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #815017;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 nav ul li:hover ul {
     display: block;
+}
+.subitemul {
+    text-align: center;
+    background-color:#6b43159c;
+}
+.subitemul:hover {
+    background-color: #d39f646c;
+    color: #6b4315;
 }
 
 /*###############################################################################*/
