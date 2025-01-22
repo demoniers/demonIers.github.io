@@ -152,3 +152,14 @@ nav ul li:hover ul {
     text-align: justify;
     font-size: 12pt;
 }
+.enlaceart {
+    margin: 5%;
+    display: flex;
+    justify-self: center;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #d39f64;
+    border-radius: 8%;
+    padding: 2%;
+    
+}
