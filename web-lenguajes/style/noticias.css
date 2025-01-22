@@ -7,6 +7,31 @@ body {
     background-color: #815017;
 }
 
+@font-face {
+    font-family: "Overcooked";
+    src: url("https://db.onlinewebfonts.com/t/4d9ee5a678d899047a987f0408b4b052.eot");
+    src: url("https://db.onlinewebfonts.com/t/4d9ee5a678d899047a987f0408b4b052.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/4d9ee5a678d899047a987f0408b4b052.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/4d9ee5a678d899047a987f0408b4b052.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/4d9ee5a678d899047a987f0408b4b052.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/4d9ee5a678d899047a987f0408b4b052.svg#Overcooked")format("svg");
+}
+.titulo-centrado {
+    font-family: "Overcooked";
+    text-align: center;
+    word-spacing: 4px;
+    letter-spacing: 8px;
+    font-size: 50pt;
+}
+.subtitulo {
+    font-family: "Overcooked";
+    text-align: center;
+    word-spacing: 1.5px;
+    letter-spacing: 4px;
+    font-size: 25pt;
+    width: 45%;
+}
+
 /* menu superior */
 .header {
     position: fixed;
@@ -53,4 +78,17 @@ nav ul li:hover ul {
 /*###############################################################################*/
 
 .container {
+    margin: 5%;
+    padding: 2%;
+    border: solid white 1px;
+    width: 90%;
+    height: 1000px;
+}
+.titulo-centrado {
+    padding: 3%;
+    margin: auto;
+}
+.subtitulo {
+    margin: auto;
+    padding-top: 2%;
 }
