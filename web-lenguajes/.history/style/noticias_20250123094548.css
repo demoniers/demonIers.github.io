@@ -110,7 +110,8 @@ nav ul li:hover ul {
     width: 85%;
     grid-column: 1;
     height: auto;
-    margin-top: 2%;
+    border: solid white 1px;
+    margin-top: 1%;
     background-color: #412404;
     box-shadow: 0px 4px 8px #d39f64;
 }
@@ -118,7 +119,8 @@ nav ul li:hover ul {
     width: 85%;
     grid-column: 2;
     height: auto;
-    margin-top: 2%;
+    border: solid white 1px;
+    margin-top: 1%;
     background-color: #412404;
     box-shadow: 0px 4px 8px #d39f64;
 }
@@ -126,7 +128,8 @@ nav ul li:hover ul {
     width: 85%;
     grid-column: 3;
     height: auto;
-    margin-top: 2%;
+    border: solid white 1px;
+    margin-top: 1%;
     background-color: #412404;
     box-shadow: 0px 4px 8px #d39f64;
 }
