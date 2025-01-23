@@ -5,7 +5,6 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #815017;
-    color: #d39f64;
 }
 
 @font-face {
@@ -165,10 +164,7 @@ nav ul li:hover ul {
     border: 1px solid #d39f64;
     border-radius: 8%;
     padding: 2%;
-}
-.enlaceart:hover, .enlaceart:focus {
-    color: #57330b;
-    background-color: #c9710ead
+    
 }
 .img-cabeza {
     padding-top: 2%;
