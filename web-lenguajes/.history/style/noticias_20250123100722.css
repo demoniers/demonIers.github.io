@@ -56,9 +56,8 @@ body {
     position: relative;
 }
 .logo-r {
-    float: left;
+    float: right;
     width: 3%;
-    margin-left: 2%;
 }
 
 nav ul li a {

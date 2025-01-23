@@ -56,9 +56,9 @@ body {
     position: relative;
 }
 .logo-r {
-    float: left;
+    display: flex;
+    justify-self: left;
     width: 3%;
-    margin-left: 2%;
 }
 
 nav ul li a {
