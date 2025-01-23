@@ -1,0 +1,15 @@
+nombre
+apellido
+dni (8 digitos, 1 letra mayuscula)
+direccion (formato: C/ nombrecalle nº numero)
+ciudad
+cod_postal dar 5 opciones y maximo 5 digitos)
+pais
+f_nacimiento
+email (formato: correo@correo.es)
+contraseña (_+7letras+_+5letras o numero+&+2numeros
+sexo
+aficiones ( dar 4 opciones)
+subir_foto_perfil
+
+botones: borrar, enviar y cancelar
