@@ -266,31 +266,8 @@ form input {
     height: 25px;
     text-align: center;
     border-radius: 25%;
-    padding: 1.33%;
+    padding: 1.35%;
 }
 form input:focus {
     border-radius: 15%;
-    color: #815017;
-    background-color: #d39f64;
-}
-.botones {
-    display: grid;
-    justify-self: center;
-    text-align: center;
-    width: 100%;
-}
-.btn {
-    display: inline;
-}
-.btn button {
-    border-radius: 15%;
-    height: auto;
-    padding: 2%;
-    margin: 1%;
-    background-color: #4e2e09;
-    color: #d39f64;
-}
-.btn button:hover {
-    color: #4e2e09;
-    background-color: #d39f64;
 }

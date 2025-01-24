@@ -270,14 +270,11 @@ form input {
 }
 form input:focus {
     border-radius: 15%;
-    color: #815017;
-    background-color: #d39f64;
 }
 .botones {
     display: grid;
     justify-self: center;
     text-align: center;
-    width: 100%;
 }
 .btn {
     display: inline;
@@ -285,12 +282,5 @@ form input:focus {
 .btn button {
     border-radius: 15%;
     height: auto;
-    padding: 2%;
-    margin: 1%;
-    background-color: #4e2e09;
-    color: #d39f64;
-}
-.btn button:hover {
-    color: #4e2e09;
-    background-color: #d39f64;
+    padding: 1%;
 }
