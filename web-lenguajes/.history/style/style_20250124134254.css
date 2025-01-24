@@ -275,6 +275,11 @@ form label {
     font-size: 20pt;
     letter-spacing: 4px;
 }
+.ignorestyle {
+    border-radius: 0% !important; 
+    border: 0px !important;
+    color: #694011;
+}
 form input {
     display: block;
     justify-self: center;
@@ -310,10 +315,4 @@ form input:focus {
 .btn button:hover {
     color: #4e2e09;
     background-color: #d39f64;
-}
-.ignorestyle input {
-    border-radius: 0% !important; 
-    border: 0px !important;
-    background-color: #694011;
-    color: #d39f64;
 }

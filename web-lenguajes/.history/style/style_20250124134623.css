@@ -314,6 +314,5 @@ form input:focus {
 .ignorestyle input {
     border-radius: 0% !important; 
     border: 0px !important;
-    background-color: #694011;
-    color: #d39f64;
+    color: #694011;
 }
