@@ -265,7 +265,7 @@ form input {
     width: 100%;
     height: 25px;
     text-align: center;
-    border-radius: 35%;
+    border-radius: 50%;
 }
 form input:focus {
     border-radius: 25%;
