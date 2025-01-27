@@ -23,7 +23,10 @@ body {
     word-spacing: 4px;
     letter-spacing: 8px;
     font-size: 50pt;
-    color: #d39f64;
+    background-image: linear-gradient(to top, #815017, #d39f64);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .subtitulo {
     font-family: "Overcooked";

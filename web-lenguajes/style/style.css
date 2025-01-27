@@ -23,7 +23,10 @@ body {
     word-spacing: 4px;
     letter-spacing: 8px;
     font-size: 50pt;
-    color: #d39f64;
+    background-image: linear-gradient(to top, #815017, #d39f64);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .btn-saber-mas a {
@@ -150,7 +153,19 @@ nav ul li:hover ul {
     width: 25%;
     padding: 2%;
     text-align: center;
+    animation-name: agrandar-boton;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
+@keyframes agrandar-boton {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }    
+}
+
 
 .bienvenida a {
     text-decoration: none;
