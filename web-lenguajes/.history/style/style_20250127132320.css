@@ -88,9 +88,6 @@ nav ul li ul {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-nav ul li:hover {
-    background-color: #d39f6459;
-}
 nav ul li:hover ul {
     display: block;
 }
@@ -98,9 +95,7 @@ nav ul li:hover ul {
 .subitemul {
     text-align: center;
     background-color: #6b43159c;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+    width: 2%;
 }
 
 .subitemul li:hover {

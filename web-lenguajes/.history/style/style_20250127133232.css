@@ -89,7 +89,7 @@ nav ul li ul {
 }
 
 nav ul li:hover {
-    background-color: #d39f6459;
+    background-color: #d39f646c;
 }
 nav ul li:hover ul {
     display: block;

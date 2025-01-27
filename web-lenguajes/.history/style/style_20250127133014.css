@@ -88,9 +88,6 @@ nav ul li ul {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-nav ul li:hover {
-    background-color: #d39f6459;
-}
 nav ul li:hover ul {
     display: block;
 }
@@ -103,7 +100,7 @@ nav ul li:hover ul {
     margin: 0;
 }
 
-.subitemul li:hover {
+.subitemul:hover li {
     background-color: #d39f646c;
     color: #6b4315;
 }
