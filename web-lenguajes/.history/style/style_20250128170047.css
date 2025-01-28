@@ -265,6 +265,7 @@ table {
 th, td {
     padding: 12px;
     border: 1px solid #ddd;
+    animation: colorhead forwards 5s;
 }
 
 th {
@@ -289,9 +290,9 @@ th {
     }
 
 }
-tr:hover {
-    background-color: #d39f64;
-    color: #615017;
+th:hover, td:hover {
+    background-color: #c08d4f;
+    color: black;
 }
 
 .form {

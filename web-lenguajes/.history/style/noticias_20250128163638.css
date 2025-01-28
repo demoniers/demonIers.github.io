@@ -164,7 +164,7 @@ nav ul li:hover ul {
     }
     100% {
         box-shadow: 0px 16px 32px #d39f64;
-        transform: translate3d(40px, -25px, 10px);
+        transform: translate3d(50px, -25px, 5px);
     }
 }
 
@@ -172,7 +172,7 @@ nav ul li:hover ul {
 @keyframes bordes-retroceso {
     0% {
         box-shadow: 0px 16px 32px #d39f64;
-        transform: translate3d(40px, -25px, 10px);
+        transform: translate3d(50px, -25px, 5px);
     }
     50% {
         box-shadow: 0px 8px 16px #d39f64;

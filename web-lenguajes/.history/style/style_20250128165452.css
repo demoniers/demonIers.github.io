@@ -268,7 +268,7 @@ th, td {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #f2f2f200;
 }
 
 .table-header {
@@ -288,10 +288,6 @@ th {
         color: white;
     }
 
-}
-tr:hover {
-    background-color: #d39f64;
-    color: #615017;
 }
 
 .form {

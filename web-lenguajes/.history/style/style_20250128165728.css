@@ -289,9 +289,8 @@ th {
     }
 
 }
-tr:hover {
-    background-color: #d39f64;
-    color: #615017;
+.table-header:hover, th:hover, td:hover {
+    background-color: #a06624;
 }
 
 .form {

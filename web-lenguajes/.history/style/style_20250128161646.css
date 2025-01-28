@@ -262,7 +262,8 @@ table {
     text-align: left;
 }
 
-th, td {
+th,
+td {
     padding: 12px;
     border: 1px solid #ddd;
 }
@@ -288,10 +289,6 @@ th {
         color: white;
     }
 
-}
-tr:hover {
-    background-color: #d39f64;
-    color: #615017;
 }
 
 .form {
