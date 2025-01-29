@@ -149,7 +149,7 @@ nav ul li:hover ul {
 }
 .noticia1:hover, .noticia2:hover, .noticia3:hover {
     animation-name: bordes-progre;
-    animation-duration: 5s;
+    animation-duration: 2.5s;
     animation-direction: alternate;
     animation-fill-mode: both;
     animation-play-state: running;
@@ -164,7 +164,7 @@ nav ul li:hover ul {
     }
     100% {
         box-shadow: 0px 16px 32px #d39f64;
-        transform: translate3d(40px, -25px, 10px);
+        transform: translate3d(20px, -15px, 6px);
     }
 }
 
@@ -172,7 +172,7 @@ nav ul li:hover ul {
 @keyframes bordes-retroceso {
     0% {
         box-shadow: 0px 16px 32px #d39f64;
-        transform: translate3d(40px, -25px, 10px);
+        transform: translate3d(20px, -15px, 6px);
     }
     50% {
         box-shadow: 0px 8px 16px #d39f64;
@@ -185,7 +185,7 @@ nav ul li:hover ul {
 
 .noticia1:not(:hover), .noticia2:not(:hover), .noticia3:not(:hover) {
     animation-name: bordes-retroceso;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: both;
     animation-play-state: running;
 }
