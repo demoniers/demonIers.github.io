@@ -1,5 +1,5 @@
 @echo
 git add *
-git commit -m "subida de datos automática"
+git commit -m "Subiendo cambios de reservas, titulos de paginas y finalizacion del proyecto"
 git push
 pause
