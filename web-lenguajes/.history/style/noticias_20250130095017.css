@@ -252,7 +252,6 @@ nav ul li:hover ul {
 
 .popup {
     background-color: #d39f64;
-    color: #815017;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px #0000001e;
@@ -275,11 +274,10 @@ nav ul li:hover ul {
     border: none;
     border-radius: 5px;
     background-color: #af7e46;
-    color: #815017;
+    color: #815067;
     cursor: pointer;
 }
 
 .popup button:hover {
-  background-color: #815017;
-  color: #d39f64;
+  background-color: #0056b3;
 }
