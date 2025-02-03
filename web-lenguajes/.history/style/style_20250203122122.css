@@ -422,12 +422,8 @@ form input:focus {
     height: 500px;
 }
 .recuadro {
-    border: 0;
+    border-radius: 1%;
     margin-top: 0.3%;
     margin-bottom: 0.3%;
-    padding: 0.5%;
-    width: 100%;
-}
-.recuadro legend {
-    margin-bottom: 5%;
+    padding: 0.2%;
 }

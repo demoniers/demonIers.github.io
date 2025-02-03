@@ -1,5 +1,5 @@
 @echo
 git add *
-git commit -m "Subiendo cambios de reservas, titulos de paginas y finalizacion del proyecto"
+git commit -m "Subienda final proyecto Actualizacion: retoques formulario, animacion menu, revision y dapataciones para rubrica"
 git push
 pause

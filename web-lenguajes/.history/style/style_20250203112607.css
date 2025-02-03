@@ -28,12 +28,12 @@ body {
     -webkit-background-clip: text;
     color: transparent;
 }
-.subtitulo {
+.titulo {
     font-family: "Overcooked";
     text-align: justify;
     word-spacing: 4px;
     letter-spacing: 8px;
-    font-size: 25pt;
+    font-size: 50pt;
     background-image: linear-gradient(to top, #815017, #d39f64);
     background-clip: text;
     -webkit-background-clip: text;
@@ -104,20 +104,6 @@ nav ul li:hover {
 }
 nav ul li:hover ul {
     display: block;
-    animation: AparicionMenu;
-    animation-duration: 2s;
-}
-
-@keyframes AparicionMenu {
-    0% {
-        opacity: 0;
-        transform: translateY(-25%);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 .subitemul {
@@ -412,22 +398,11 @@ form input:focus {
     color: #d39f64;
 }
 .video {
-    padding-top: 15%;
     margin: auto;
-    width: 100%;
+    width: 75%;
     text-align: center;
 }
 .video iframe {
     width: 75%;
     height: 500px;
-}
-.recuadro {
-    border: 0;
-    margin-top: 0.3%;
-    margin-bottom: 0.3%;
-    padding: 0.5%;
-    width: 100%;
-}
-.recuadro legend {
-    margin-bottom: 5%;
 }

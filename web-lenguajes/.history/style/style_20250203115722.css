@@ -111,7 +111,7 @@ nav ul li:hover ul {
 @keyframes AparicionMenu {
     0% {
         opacity: 0;
-        transform: translateY(-25%);
+        transform: translateY(-100%);
     }
 
     100% {
@@ -420,14 +420,4 @@ form input:focus {
 .video iframe {
     width: 75%;
     height: 500px;
-}
-.recuadro {
-    border: 0;
-    margin-top: 0.3%;
-    margin-bottom: 0.3%;
-    padding: 0.5%;
-    width: 100%;
-}
-.recuadro legend {
-    margin-bottom: 5%;
 }
