@@ -431,3 +431,8 @@ form input:focus {
 .recuadro legend {
     margin-bottom: 5%;
 }
+.form-cont {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
